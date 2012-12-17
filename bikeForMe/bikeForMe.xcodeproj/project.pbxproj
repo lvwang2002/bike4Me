@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156634C1167F788A0093C63F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156634C0167F788A0093C63F /* UIKit.framework */; };
+		156634C3167F788A0093C63F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156634C2167F788A0093C63F /* Foundation.framework */; };
+		156634C5167F788A0093C63F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156634C4167F788A0093C63F /* CoreGraphics.framework */; };
+		156634C7167F788A0093C63F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156634C6167F788A0093C63F /* CoreData.framework */; };
+		156634CD167F788B0093C63F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156634CB167F788B0093C63F /* InfoPlist.strings */; };
+		156634CF167F788B0093C63F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156634CE167F788B0093C63F /* main.m */; };
+		156634D3167F788B0093C63F /* fxerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156634D2167F788B0093C63F /* fxerAppDelegate.m */; };
+		156634D5167F788B0093C63F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 156634D4167F788B0093C63F /* Default.png */; };
+		156634D7167F788B0093C63F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156634D6167F788B0093C63F /* Default@2x.png */; };
+		156634D9167F788B0093C63F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156634D8167F788B0093C63F /* Default-568h@2x.png */; };
+		156634DC167F788B0093C63F /* bikeForMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 156634DA167F788B0093C63F /* bikeForMe.xcdatamodeld */; };
+		156634DF167F788B0093C63F /* fxerMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156634DE167F788B0093C63F /* fxerMainViewController.m */; };
+		156634E2167F788B0093C63F /* fxerFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156634E1167F788B0093C63F /* fxerFlipsideViewController.m */; };
+		156634E5167F788B0093C63F /* fxerMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156634E3167F788B0093C63F /* fxerMainViewController_iPhone.xib */; };
+		156634E8167F788B0093C63F /* fxerMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156634E6167F788B0093C63F /* fxerMainViewController_iPad.xib */; };
+		156634EB167F788B0093C63F /* fxerFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156634E9167F788B0093C63F /* fxerFlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		156634BC167F788A0093C63F /* bikeForMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bikeForMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		156634C0167F788A0093C63F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		156634C2167F788A0093C63F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		156634C4167F788A0093C63F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		156634C6167F788A0093C63F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		156634CA167F788B0093C63F /* bikeForMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bikeForMe-Info.plist"; sourceTree = "<group>"; };
+		156634CC167F788B0093C63F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		156634CE167F788B0093C63F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		156634D0167F788B0093C63F /* bikeForMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bikeForMe-Prefix.pch"; sourceTree = "<group>"; };
+		156634D1167F788B0093C63F /* fxerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fxerAppDelegate.h; sourceTree = "<group>"; };
+		156634D2167F788B0093C63F /* fxerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fxerAppDelegate.m; sourceTree = "<group>"; };
+		156634D4167F788B0093C63F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		156634D6167F788B0093C63F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		156634D8167F788B0093C63F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		156634DB167F788B0093C63F /* bikeForMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bikeForMe.xcdatamodel; sourceTree = "<group>"; };
+		156634DD167F788B0093C63F /* fxerMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fxerMainViewController.h; sourceTree = "<group>"; };
+		156634DE167F788B0093C63F /* fxerMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fxerMainViewController.m; sourceTree = "<group>"; };
+		156634E0167F788B0093C63F /* fxerFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fxerFlipsideViewController.h; sourceTree = "<group>"; };
+		156634E1167F788B0093C63F /* fxerFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fxerFlipsideViewController.m; sourceTree = "<group>"; };
+		156634E4167F788B0093C63F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fxerMainViewController_iPhone.xib; sourceTree = "<group>"; };
+		156634E7167F788B0093C63F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fxerMainViewController_iPad.xib; sourceTree = "<group>"; };
+		156634EA167F788B0093C63F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fxerFlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156634B9167F788A0093C63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156634C1167F788A0093C63F /* UIKit.framework in Frameworks */,
+				156634C3167F788A0093C63F /* Foundation.framework in Frameworks */,
+				156634C5167F788A0093C63F /* CoreGraphics.framework in Frameworks */,
+				156634C7167F788A0093C63F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156634B1167F788A0093C63F = {
+			isa = PBXGroup;
+			children = (
+				156634C8167F788A0093C63F /* bikeForMe */,
+				156634BF167F788A0093C63F /* Frameworks */,
+				156634BD167F788A0093C63F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		156634BD167F788A0093C63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				156634BC167F788A0093C63F /* bikeForMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		156634BF167F788A0093C63F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156634C0167F788A0093C63F /* UIKit.framework */,
+				156634C2167F788A0093C63F /* Foundation.framework */,
+				156634C4167F788A0093C63F /* CoreGraphics.framework */,
+				156634C6167F788A0093C63F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		156634C8167F788A0093C63F /* bikeForMe */ = {
+			isa = PBXGroup;
+			children = (
+				156634D1167F788B0093C63F /* fxerAppDelegate.h */,
+				156634D2167F788B0093C63F /* fxerAppDelegate.m */,
+				156634DD167F788B0093C63F /* fxerMainViewController.h */,
+				156634DE167F788B0093C63F /* fxerMainViewController.m */,
+				156634E0167F788B0093C63F /* fxerFlipsideViewController.h */,
+				156634E1167F788B0093C63F /* fxerFlipsideViewController.m */,
+				156634E3167F788B0093C63F /* fxerMainViewController_iPhone.xib */,
+				156634E6167F788B0093C63F /* fxerMainViewController_iPad.xib */,
+				156634E9167F788B0093C63F /* fxerFlipsideViewController.xib */,
+				156634DA167F788B0093C63F /* bikeForMe.xcdatamodeld */,
+				156634C9167F788B0093C63F /* Supporting Files */,
+			);
+			path = bikeForMe;
+			sourceTree = "<group>";
+		};
+		156634C9167F788B0093C63F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				156634CA167F788B0093C63F /* bikeForMe-Info.plist */,
+				156634CB167F788B0093C63F /* InfoPlist.strings */,
+				156634CE167F788B0093C63F /* main.m */,
+				156634D0167F788B0093C63F /* bikeForMe-Prefix.pch */,
+				156634D4167F788B0093C63F /* Default.png */,
+				156634D6167F788B0093C63F /* Default@2x.png */,
+				156634D8167F788B0093C63F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		156634BB167F788A0093C63F /* bikeForMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156634EE167F788B0093C63F /* Build configuration list for PBXNativeTarget "bikeForMe" */;
+			buildPhases = (
+				156634B8167F788A0093C63F /* Sources */,
+				156634B9167F788A0093C63F /* Frameworks */,
+				156634BA167F788A0093C63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bikeForMe;
+			productName = bikeForMe;
+			productReference = 156634BC167F788A0093C63F /* bikeForMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		156634B3167F788A0093C63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = fxer;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = lvwang2002;
+			};
+			buildConfigurationList = 156634B6167F788A0093C63F /* Build configuration list for PBXProject "bikeForMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 156634B1167F788A0093C63F;
+			productRefGroup = 156634BD167F788A0093C63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				156634BB167F788A0093C63F /* bikeForMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		156634BA167F788A0093C63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156634CD167F788B0093C63F /* InfoPlist.strings in Resources */,
+				156634D5167F788B0093C63F /* Default.png in Resources */,
+				156634D7167F788B0093C63F /* Default@2x.png in Resources */,
+				156634D9167F788B0093C63F /* Default-568h@2x.png in Resources */,
+				156634E5167F788B0093C63F /* fxerMainViewController_iPhone.xib in Resources */,
+				156634E8167F788B0093C63F /* fxerMainViewController_iPad.xib in Resources */,
+				156634EB167F788B0093C63F /* fxerFlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		156634B8167F788A0093C63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156634CF167F788B0093C63F /* main.m in Sources */,
+				156634D3167F788B0093C63F /* fxerAppDelegate.m in Sources */,
+				156634DC167F788B0093C63F /* bikeForMe.xcdatamodeld in Sources */,
+				156634DF167F788B0093C63F /* fxerMainViewController.m in Sources */,
+				156634E2167F788B0093C63F /* fxerFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		156634CB167F788B0093C63F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156634CC167F788B0093C63F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		156634E3167F788B0093C63F /* fxerMainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156634E4167F788B0093C63F /* en */,
+			);
+			name = fxerMainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		156634E6167F788B0093C63F /* fxerMainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156634E7167F788B0093C63F /* en */,
+			);
+			name = fxerMainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		156634E9167F788B0093C63F /* fxerFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156634EA167F788B0093C63F /* en */,
+			);
+			name = fxerFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		156634EC167F788B0093C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		156634ED167F788B0093C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		156634EF167F788B0093C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bikeForMe/bikeForMe-Prefix.pch";
+				INFOPLIST_FILE = "bikeForMe/bikeForMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		156634F0167F788B0093C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bikeForMe/bikeForMe-Prefix.pch";
+				INFOPLIST_FILE = "bikeForMe/bikeForMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156634B6167F788A0093C63F /* Build configuration list for PBXProject "bikeForMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156634EC167F788B0093C63F /* Debug */,
+				156634ED167F788B0093C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156634EE167F788B0093C63F /* Build configuration list for PBXNativeTarget "bikeForMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156634EF167F788B0093C63F /* Debug */,
+				156634F0167F788B0093C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		156634DA167F788B0093C63F /* bikeForMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				156634DB167F788B0093C63F /* bikeForMe.xcdatamodel */,
+			);
+			currentVersion = 156634DB167F788B0093C63F /* bikeForMe.xcdatamodel */;
+			path = bikeForMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 156634B3167F788A0093C63F /* Project object */;
+}
